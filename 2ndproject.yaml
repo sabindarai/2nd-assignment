@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: True
+  tasks:
+
+   - name: Deploy static website
+     copy:
+      src: /var/lib/jenkins/workspace/Project2
+      dest: /var/www/html/
