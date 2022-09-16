@@ -3,7 +3,7 @@
   become: True
   tasks:
 
-   - name: Deploy static website
+   - name: 2ndproject
      copy:
-      src: /var/lib/jenkins/workspace/Project2
+      src: /var/lib/jenkins/workspace/2nd-assignment
       dest: /var/www/html/
