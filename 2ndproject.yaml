@@ -5,5 +5,5 @@
   
    - name: 2ndproject
      copy:
-      src: /var/lib/jenkins/workspace/2ndproject
+      src: /var/lib/jenkins/workspace/2ndproject/
       dest: /var/www/html/
