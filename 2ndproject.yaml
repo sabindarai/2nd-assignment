@@ -1,9 +1,9 @@
 ---
 - hosts: all
-  become: True
+  become-method: sudo
   tasks:
-  
-   - name: 2ndproject
+
+   - name: 2nd project
      copy:
       src: /var/lib/jenkins/workspace/2ndproject
       dest: /var/www/html/
