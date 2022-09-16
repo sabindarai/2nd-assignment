@@ -4,5 +4,5 @@
   tasks:
    - name: 2ndproject
      copy:
-      src: /var/lib/jenkins/workspace/2nd-assignment
+      src: /var/lib/jenkins/workspace/2ndproject
       dest: /var/www/html/
