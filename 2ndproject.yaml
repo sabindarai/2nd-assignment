@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  become-method: sudo
+  become: true
   tasks:
 
    - name: 2nd project
